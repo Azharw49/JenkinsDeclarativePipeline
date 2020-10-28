@@ -1,0 +1,906 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Connect to database",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "SQL oracle is launched",
+            "match": {
+              "location": "stepDefinition.DataDriven.sqlOracleIsLaunched()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Database is connected",
+            "match": {
+              "location": "stepDefinition.DataDriven.databaseIsConnected()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-28T13:05:17.556Z",
+        "line": 9,
+        "name": "Simple One",
+        "description": "",
+        "id": "this-feature-file-is-to-test-to-datadriven-capability;simple-one",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TestProject.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "stepDefinition.DataDriven.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User Navigate to LogIn Page",
+            "match": {
+              "location": "stepDefinition.DataDriven.user_navigate_to_log_in_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enters \"testuser_1\" and \"Test@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"testuser_1\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Test@123\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefinition.DataDriven.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Message displayed Login Successfully",
+            "match": {
+              "location": "stepDefinition.DataDriven.message_displayed_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@data_driven"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Connect to database",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "SQL oracle is launched",
+            "match": {
+              "location": "stepDefinition.DataDriven.sqlOracleIsLaunched()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Database is connected",
+            "match": {
+              "location": "stepDefinition.DataDriven.databaseIsConnected()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-28T13:05:17.643Z",
+        "line": 15,
+        "name": "DataTables",
+        "description": "",
+        "id": "this-feature-file-is-to-test-to-datadriven-capability;datatables",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TestProject.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "stepDefinition.DataDriven.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User Navigate to LogIn Page",
+            "match": {
+              "location": "stepDefinition.DataDriven.user_navigate_to_log_in_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters Credentials to LogIn",
+            "match": {
+              "location": "stepDefinition.DataDriven.user_enters_credentials_to_log_in(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "testuser_1",
+                  "Test@153"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Message displayed Login Successfully",
+            "match": {
+              "location": "stepDefinition.DataDriven.message_displayed_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@data_driven"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Connect to database",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "SQL oracle is launched",
+            "match": {
+              "location": "stepDefinition.DataDriven.sqlOracleIsLaunched()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Database is connected",
+            "match": {
+              "location": "stepDefinition.DataDriven.databaseIsConnected()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-28T13:05:17.652Z",
+        "line": 29,
+        "name": "Scenario Outline with examples",
+        "description": "",
+        "id": "this-feature-file-is-to-test-to-datadriven-capability;scenario-outline-with-examples;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TestProject.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "stepDefinition.DataDriven.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User Navigate to LogIn Page",
+            "match": {
+              "location": "stepDefinition.DataDriven.user_navigate_to_log_in_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User gives the \"testuser_1\" and \"Test@153\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"testuser_1\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"Test@153\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepDefinition.DataDriven.user_gives_the_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Message displayed Login Successfully",
+            "match": {
+              "location": "stepDefinition.DataDriven.message_displayed_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@data_driven"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Connect to database",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "SQL oracle is launched",
+            "match": {
+              "location": "stepDefinition.DataDriven.sqlOracleIsLaunched()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Database is connected",
+            "match": {
+              "location": "stepDefinition.DataDriven.databaseIsConnected()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-28T13:05:17.659Z",
+        "line": 30,
+        "name": "Scenario Outline with examples",
+        "description": "",
+        "id": "this-feature-file-is-to-test-to-datadriven-capability;scenario-outline-with-examples;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TestProject.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "stepDefinition.DataDriven.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User Navigate to LogIn Page",
+            "match": {
+              "location": "stepDefinition.DataDriven.user_navigate_to_log_in_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User gives the \"testuser_2\" and \"Test@153\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"testuser_2\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"Test@153\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepDefinition.DataDriven.user_gives_the_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Message displayed Login Successfully",
+            "match": {
+              "location": "stepDefinition.DataDriven.message_displayed_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@data_driven"
+          }
+        ]
+      }
+    ],
+    "name": "This feature file is to test to datadriven capability",
+    "description": "",
+    "id": "this-feature-file-is-to-test-to-datadriven-capability",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature/DataDriven.feature",
+    "tags": [
+      {
+        "name": "@data_driven",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-28T13:05:17.670Z",
+        "line": 4,
+        "name": "Open Citrix",
+        "description": "",
+        "id": "open-citrix;open-citrix",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TestProject.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User have opened Citrix",
+            "match": {
+              "location": "stepDefinition.CitrixPage.user_have_opened_citrix()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User have gave the credentials",
+            "match": {
+              "location": "stepDefinition.CitrixPage.user_have_gave_the_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Citrix is launched",
+            "match": {
+              "location": "stepDefinition.CitrixPage.citrix_is_launched()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@citrix"
+          }
+        ]
+      }
+    ],
+    "name": "Open Citrix",
+    "description": "",
+    "id": "open-citrix",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature/OpenCitrix.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5769000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Driver is launched",
+            "match": {
+              "location": "stepDefinition.TestProject.driver_is_launched()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2157000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open chrome",
+            "match": {
+              "location": "stepDefinition.TestProject.open_chrome()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-28T13:05:17.681Z",
+        "line": 17,
+        "name": "Login with different credentials",
+        "description": "",
+        "id": "login-action;login-with-different-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 147000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TestProject.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1453000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "TestUser in the login page",
+            "match": {
+              "location": "stepDefinition.TestProject.test_user_in_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2226000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "TestUser gives Azhar and 12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Azhar",
+                  "offset": 15
+                },
+                {
+                  "val": "12345",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinition.TestProject.testuser_gives_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1087000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "TestUser Clicks on the Login Button",
+            "match": {
+              "location": "stepDefinition.TestProject.test_user_clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "TestUser is navigated to HomePage",
+            "match": {
+              "location": "stepDefinition.TestProject.test_user_is_navigated_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test_Project"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3188000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Driver is launched",
+            "match": {
+              "location": "stepDefinition.TestProject.driver_is_launched()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2125000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open chrome",
+            "match": {
+              "location": "stepDefinition.TestProject.open_chrome()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-28T13:05:30.596Z",
+        "line": 18,
+        "name": "Login with different credentials",
+        "description": "",
+        "id": "login-action;login-with-different-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 127000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TestProject.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1052000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "TestUser in the login page",
+            "match": {
+              "location": "stepDefinition.TestProject.test_user_in_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2164000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "TestUser gives Libin and 12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Libin",
+                  "offset": 15
+                },
+                {
+                  "val": "12345",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinition.TestProject.testuser_gives_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1070000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "TestUser Clicks on the Login Button",
+            "match": {
+              "location": "stepDefinition.TestProject.test_user_clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 248000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "TestUser is navigated to HomePage",
+            "match": {
+              "location": "stepDefinition.TestProject.test_user_is_navigated_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test_Project"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3223000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Driver is launched",
+            "match": {
+              "location": "stepDefinition.TestProject.driver_is_launched()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2135000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open chrome",
+            "match": {
+              "location": "stepDefinition.TestProject.open_chrome()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-28T13:05:40.580Z",
+        "line": 19,
+        "name": "Login with different credentials",
+        "description": "",
+        "id": "login-action;login-with-different-credentials;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 148000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TestProject.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1437000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "TestUser in the login page",
+            "match": {
+              "location": "stepDefinition.TestProject.test_user_in_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2164000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "TestUser gives Navi and 12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Navi",
+                  "offset": 15
+                },
+                {
+                  "val": "12345",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinition.TestProject.testuser_gives_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1074000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "TestUser Clicks on the Login Button",
+            "match": {
+              "location": "stepDefinition.TestProject.test_user_clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "TestUser is navigated to HomePage",
+            "match": {
+              "location": "stepDefinition.TestProject.test_user_is_navigated_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test_Project"
+          }
+        ]
+      }
+    ],
+    "name": "Login Action",
+    "description": "",
+    "id": "login-action",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature/TestProjectLogin.feature",
+    "tags": []
+  }
+]
