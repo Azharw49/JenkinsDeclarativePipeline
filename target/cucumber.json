@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3000000,
+              "duration": 2000000,
               "status": "passed"
             },
             "line": 5,
@@ -35,7 +35,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-10-28T13:05:17.556Z",
+        "start_timestamp": "2020-10-28T14:51:24.150Z",
         "line": 9,
         "name": "Simple One",
         "description": "",
@@ -148,7 +148,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-10-28T13:05:17.643Z",
+        "start_timestamp": "2020-10-28T14:51:24.236Z",
         "line": 15,
         "name": "DataTables",
         "description": "",
@@ -258,7 +258,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-10-28T13:05:17.652Z",
+        "start_timestamp": "2020-10-28T14:51:24.244Z",
         "line": 29,
         "name": "Scenario Outline with examples",
         "description": "",
@@ -289,6 +289,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 24,
@@ -369,7 +370,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-10-28T13:05:17.659Z",
+        "start_timestamp": "2020-10-28T14:51:24.251Z",
         "line": 30,
         "name": "Scenario Outline with examples",
         "description": "",
@@ -377,6 +378,7 @@
         "after": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -411,7 +413,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 25,
@@ -470,7 +471,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-10-28T13:05:17.670Z",
+        "start_timestamp": "2020-10-28T14:51:24.259Z",
         "line": 4,
         "name": "Open Citrix",
         "description": "",
@@ -478,7 +479,6 @@
         "after": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -513,7 +513,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 7,
@@ -550,7 +549,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5769000000,
+              "duration": 4457000000,
               "status": "passed"
             },
             "line": 5,
@@ -562,7 +561,7 @@
           },
           {
             "result": {
-              "duration": 2157000000,
+              "duration": 2123000000,
               "status": "passed"
             },
             "line": 6,
@@ -575,7 +574,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-10-28T13:05:17.681Z",
+        "start_timestamp": "2020-10-28T14:51:24.266Z",
         "line": 17,
         "name": "Login with different credentials",
         "description": "",
@@ -583,7 +582,7 @@
         "after": [
           {
             "result": {
-              "duration": 147000000,
+              "duration": 144000000,
               "status": "passed"
             },
             "match": {
@@ -596,7 +595,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1453000000,
+              "duration": 1326000000,
               "status": "passed"
             },
             "line": 10,
@@ -608,7 +607,7 @@
           },
           {
             "result": {
-              "duration": 2226000000,
+              "duration": 2154000000,
               "status": "passed"
             },
             "line": 11,
@@ -630,7 +629,7 @@
           },
           {
             "result": {
-              "duration": 1087000000,
+              "duration": 1042000000,
               "status": "passed"
             },
             "line": 12,
@@ -642,7 +641,7 @@
           },
           {
             "result": {
-              "duration": 67000000,
+              "duration": 62000000,
               "status": "passed"
             },
             "line": 13,
@@ -668,7 +667,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3188000000,
+              "duration": 3142000000,
               "status": "passed"
             },
             "line": 5,
@@ -680,7 +679,7 @@
           },
           {
             "result": {
-              "duration": 2125000000,
+              "duration": 2121000000,
               "status": "passed"
             },
             "line": 6,
@@ -693,7 +692,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-10-28T13:05:30.596Z",
+        "start_timestamp": "2020-10-28T14:51:35.583Z",
         "line": 18,
         "name": "Login with different credentials",
         "description": "",
@@ -701,7 +700,7 @@
         "after": [
           {
             "result": {
-              "duration": 127000000,
+              "duration": 130000000,
               "status": "passed"
             },
             "match": {
@@ -714,7 +713,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1052000000,
+              "duration": 1256000000,
               "status": "passed"
             },
             "line": 10,
@@ -726,7 +725,7 @@
           },
           {
             "result": {
-              "duration": 2164000000,
+              "duration": 2124000000,
               "status": "passed"
             },
             "line": 11,
@@ -748,7 +747,7 @@
           },
           {
             "result": {
-              "duration": 1070000000,
+              "duration": 1056000000,
               "status": "passed"
             },
             "line": 12,
@@ -760,7 +759,7 @@
           },
           {
             "result": {
-              "duration": 248000000,
+              "duration": 118000000,
               "status": "passed"
             },
             "line": 13,
@@ -786,7 +785,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3223000000,
+              "duration": 3099000000,
               "status": "passed"
             },
             "line": 5,
@@ -798,7 +797,7 @@
           },
           {
             "result": {
-              "duration": 2135000000,
+              "duration": 2120000000,
               "status": "passed"
             },
             "line": 6,
@@ -811,7 +810,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-10-28T13:05:40.580Z",
+        "start_timestamp": "2020-10-28T14:51:45.533Z",
         "line": 19,
         "name": "Login with different credentials",
         "description": "",
@@ -819,7 +818,7 @@
         "after": [
           {
             "result": {
-              "duration": 148000000,
+              "duration": 127000000,
               "status": "passed"
             },
             "match": {
@@ -832,7 +831,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1437000000,
+              "duration": 1426000000,
               "status": "passed"
             },
             "line": 10,
@@ -844,7 +843,7 @@
           },
           {
             "result": {
-              "duration": 2164000000,
+              "duration": 2113000000,
               "status": "passed"
             },
             "line": 11,
@@ -866,7 +865,7 @@
           },
           {
             "result": {
-              "duration": 1074000000,
+              "duration": 1068000000,
               "status": "passed"
             },
             "line": 12,
@@ -878,7 +877,7 @@
           },
           {
             "result": {
-              "duration": 37000000,
+              "duration": 55000000,
               "status": "passed"
             },
             "line": 13,

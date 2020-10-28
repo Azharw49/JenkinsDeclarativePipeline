@@ -1,6 +1,6 @@
-D:\GitHub Projects\JenkinsDeclarativePipeline\src\test\java\pages\TestProjectHomePage.java
-D:\GitHub Projects\JenkinsDeclarativePipeline\src\test\java\stepDefinition\TestProject.java
-D:\GitHub Projects\JenkinsDeclarativePipeline\src\test\java\pages\TestProjectLoginPage.java
-D:\GitHub Projects\JenkinsDeclarativePipeline\src\test\java\runner\TestRunner.java
-D:\GitHub Projects\JenkinsDeclarativePipeline\src\test\java\stepDefinition\CitrixPage.java
-D:\GitHub Projects\JenkinsDeclarativePipeline\src\test\java\stepDefinition\DataDriven.java
+C:\Users\azhar\.jenkins\workspace\Declarative Build Pipeline\src\test\java\stepDefinition\CitrixPage.java
+C:\Users\azhar\.jenkins\workspace\Declarative Build Pipeline\src\test\java\stepDefinition\DataDriven.java
+C:\Users\azhar\.jenkins\workspace\Declarative Build Pipeline\src\test\java\stepDefinition\TestProject.java
+C:\Users\azhar\.jenkins\workspace\Declarative Build Pipeline\src\test\java\pages\TestProjectHomePage.java
+C:\Users\azhar\.jenkins\workspace\Declarative Build Pipeline\src\test\java\pages\TestProjectLoginPage.java
+C:\Users\azhar\.jenkins\workspace\Declarative Build Pipeline\src\test\java\runner\TestRunner.java

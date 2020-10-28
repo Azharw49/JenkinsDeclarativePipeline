@@ -17,4 +17,13 @@ pipeline {
             }
         }
     }
+	post {
+        success {
+		
+		emailext body: '''Hi Team,
+
+		The build is successfull''', recipientProviders: [buildUser()], subject: 'Build Status', to: 'azharw49@gmail.com'
+            
+        }
+    }
 }
