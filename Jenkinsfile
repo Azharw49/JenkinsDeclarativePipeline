@@ -20,9 +20,7 @@ pipeline {
 	post {
         success {
 		
-		emailext body: '''Hi Team,
-
-		The build is successfull''', recipientProviders: [buildUser()], subject: 'Build Status', to: 'azharw49@gmail.com'
+		publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: '', reportFiles: 'index.html', reportName: 'HTML Report', reportTitles: ''])
             
         }
     }
