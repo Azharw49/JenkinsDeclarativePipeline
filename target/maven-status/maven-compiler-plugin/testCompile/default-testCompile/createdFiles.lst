@@ -1,0 +1,6 @@
+pages\TestProjectHomePage.class
+pages\TestProjectLoginPage.class
+stepDefinition\DataDriven.class
+stepDefinition\TestProject.class
+runner\TestRunner.class
+stepDefinition\CitrixPage.class
